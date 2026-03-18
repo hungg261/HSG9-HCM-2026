@@ -26,7 +26,7 @@ int main() {
     cin >> N >> T >> Q;
 
     map<long long, char> m;
-    m[1] = '-'; 
+    m[0] = '-'; 
     for (int i = 0; i < N; ++i) {
         long long c; char s;
         cin >> c >> s;
@@ -48,7 +48,8 @@ int main() {
     }
 
     auto get_S = [&](long long X) {
-        if (X <= 1) return 0.0L;
+        if (segs.empty() || X <= segs[0].t) return 0.0L;
+        
         int l = 0, r = (int)segs.size() - 1, idx = 0;
         while (l <= r) {
             int mid = l + (r - l) / 2;

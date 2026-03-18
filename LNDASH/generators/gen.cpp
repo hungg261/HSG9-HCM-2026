@@ -53,10 +53,11 @@ int32_t main(int32_t argc, char* argv[]) {
     }
 
     for (int i = 0; i < Q; ++i) {
-        int l = rnd.next(1LL, T);
-        int r = rnd.next(1LL, T);
+        int l = rnd.next(0LL, T);
+        int r = rnd.next(l, T);
         if (l > r) swap(l, r);
         if (param == "edge" && rnd.next(1, 10) == 1) r = l; 
+        if (rnd.next(1, 5) == 1) l = 0; 
         cout << l << " " << r << endl;
     }
 
