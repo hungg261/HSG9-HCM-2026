@@ -1,15 +1,14 @@
 {
-  "name": "PROBLEMCODE",
-  "title": "Problem name",
+  "name": "TRAMCB",
+  "title": "Trạm cảm biến",
 
-  "source": "Original",
+  "source": "HSG9-HCM-2026",
   "difficulty": "easy",
-  "rating": 800,
+  "rating": 0,
 
   "tags": [
-    "tag1",
-    "tag2",
-    "tag3"
+    "gcd",
+    "math"
   ],
 
   "limits": {
