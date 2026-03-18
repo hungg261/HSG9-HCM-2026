@@ -1,6 +1,6 @@
 <div style="border:2px solid #999; border-radius:8px; padding:15px; box-sizing:border-box;">
 
-### DENLED - Đèn LED
+### DENLED - Hệ thống đèn Led
 
 Cho một dãy gồm $n$ chiếc đèn LED, mỗi đèn thứ $i$ có công suất là một số nguyên dương $a_i$. Người ta muốn chọn ra một tập hợp các đèn (không nhất thiết phải liên tiếp nhau) sao cho tổng công suất của các đèn được chọn là **lớn nhất** và thỏa mãn các điều kiện sau:
 - Tổng công suất chia hết cho một số nguyên dương $k$.
