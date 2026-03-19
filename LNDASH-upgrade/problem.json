@@ -1,0 +1,20 @@
+{
+  "name": "LNDASH",
+  "title": "Trò chơi LineDash",
+
+  "source": "HSG9-HCM-2026",
+  "difficulty": "easy",
+  "rating": 0,
+
+  "tags": [
+    "binary search",
+    "prefix sum"
+  ],
+
+  "limits": {
+    "time_limit_sec": 1,
+    "memory_limit_mb": 256
+  },
+
+  "interactive": false
+}
